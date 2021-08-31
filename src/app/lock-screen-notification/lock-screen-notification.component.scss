@@ -1,0 +1,61 @@
+.lock-screen__notification {
+  background: rgba(245, 245, 245, 0.6);
+  backdrop-filter: blur(54.3656px);
+  border-radius: 13px;
+  padding: 10px;
+  margin: 10px;
+  opacity: 0.8;
+  font-family: "SF Pro Text";
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .app-icon-name {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        width: 20px;
+        height: 20px;
+        opacity: 0.9;
+        margin-right: 6px;
+      }
+      .name {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-right: 5px;
+      }
+    }
+
+    .right-item {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+    }
+  }
+
+  .notification-content {
+    margin-top: 8px;
+
+    .title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: -0.24px;
+      margin-bottom: 2px;
+    }
+
+    .description {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: -0.24px;
+    }
+  }
+}

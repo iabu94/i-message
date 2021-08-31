@@ -1,0 +1,13 @@
+.status-bar {
+  display: flex;
+}
+
+.status-bar__time__date {
+  height: 216px;
+}
+
+.time-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
